@@ -6,14 +6,21 @@ const postCSSPlugins = [
     require('postcss-nested'),
     require('autoprefixer')
 ]
+
 module.exports = {
     entry: './app/assets/scripts/App.js',
     output:{
         filename: 'bundled.js',
         path: path.resolve(__dirname, 'app')
     },
+    devServer: {
+        contentBase: path.join(__dirname, 'app'),
+        hot: true,
+        port: 3000
+    },
+    // comments
     mode: 'development',
-    watch: true,
+    // watch: true,
     module: {
         rules: [
             {
