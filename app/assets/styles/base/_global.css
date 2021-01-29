@@ -6,6 +6,6 @@ img {
     max-width: 100%;
     height:auto;
 }
-.large-hero__text {
-    font-weight: 500; 
+* {
+    box-sizing: border-box;
 }
