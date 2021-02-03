@@ -13,9 +13,8 @@ strong {
     }
 
     &__icon{
-        margin-right: .5rem;
         display: block;
-        margin-left: auto;
+        margin-left: auto;  
         margin-right: auto;
         margin-bottom: .6rem;
 
@@ -23,9 +22,9 @@ strong {
             margin-right: .5rem;
             margin-left: 0;
             margin-bottom: 0;
-            displayL inline-block;
-        }
+            display: inline-block;
+        } 
     }
 
-}
+} 
 
