@@ -9,4 +9,8 @@
         background-color: $mainBlue;
         color:#FFF;  
     }
-}
+
+    &--testimonials {
+        background: url('/assets/images/testimonials-bg.jpg')
+    }
+}   
