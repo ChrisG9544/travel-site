@@ -6,7 +6,7 @@
     }
 /*modifier class  */
 
-    &--no-b-passing-until-medium{
+    &--no-b-padding-until-medium{
         padding-bottom: 0;
 
         @mixin atMedium {
@@ -14,7 +14,8 @@
         }
     }
 
-    &--no-b-passing-until-large{
+     
+    &--no-b-padding-until-large{
         padding-bottom: 0;
 
         @mixin atLarge {
@@ -29,6 +30,7 @@
 
     &--testimonials {
         background-color: #e0e6ef;
+     
         @mixin atLarge{
             background: url('/assets/images/testimonials-bg.jpg');    
             background-size: cover;

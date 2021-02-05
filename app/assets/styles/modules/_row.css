@@ -98,27 +98,29 @@
         }
     }
 
-
+ 
 /* Begin Eual Height Rulles */       
+    
     &--equal-height-at-medium {
-        @mixin atMedium {
-        display: flex;
-    }
-    & > div {
+      @mixin atMedium {
+       display: flex;
+      }
+
+      & > div {
         float: none;
         display: flex;
-    }
+      }
+
    }
 
-   &--equal-height-at-large {
-    @mixin atLarge {
-    display: flex;
-}
-& > div {
-    float: none;
-    display: flex;
-}
-}
+    &--equal-height-at-large {
+      @mixin atLarge {
+      display: flex;
+      }
 
-
+      & > div {
+        float: none;    
+        display: flex;
+      }
+    }
 }
