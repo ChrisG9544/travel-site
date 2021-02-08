@@ -14,7 +14,9 @@ module.exports = {
         filename: 'bundled.js',
         path: path.resolve(__dirname, 'app')
     },
+   
     // WebPack-Dev_server install reqments 
+    // get local ip address Go to CMD line type ipconfig look for IPv4 Address Use this http://192.168.1.11:3000/. 
     devServer: {
         before: function(app, server) {
             server._watch('./app/**/*.html')
