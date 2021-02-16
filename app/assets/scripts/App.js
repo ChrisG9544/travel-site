@@ -1,9 +1,9 @@
 import '../styles/styles.css'
-/* comment:
-webpac-dev-server allows URL localhost to be used to 
-lunch the app module.hot in webpack.config
- */    
+import MobileMenu from './modules/MobileMenu'
+
+let mobileMenu = new MobileMenu();
 
 if (module.hot) {
-    module.hot.accept()
+  module.hot.accept()
 }
+
